@@ -1,2 +1,3 @@
-# latentlm
-An implementation of LatentLM in PyTorch.
+# LaLM
+
+An implementation of LaLM (Latent Language Model) in PyTorch.
