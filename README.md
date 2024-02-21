@@ -4,7 +4,7 @@ An implementation of LaLM (Latent Language Model) in PyTorch.
 
 ## Description
 
-LaLM is a transformer-based variational autoencoder that leverages autoregression to learn hierarchical latent codes. According to the [chain rule](https://en.wikipedia.org/wiki/Chain_rule_(probability)), the description length of any string can be decomposed into a sum of conditional description lengths:
+LaLM is a transformer-based variational autoencoder that leverages autoregression to learn hierarchical latent codes. According to the [chain rule](https://en.wikipedia.org/wiki/Chain_rule_(probability)), the description length of any string decomposes into a sum of conditional description lengths:
 
 $$L(x_1, \dots, x_n) = L(x_1) + L(x_2|x_1) + \dots + L(x_n|x_1, \dots, x_{n-1}).$$
 
